@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+    char another = 'y';
+    int num ;
+    for (; another =='y';)
+    {
+        printf("Enter  number ");
+        scanf("%d ",&num );
+        printf("square of %d is %d\n ", num ,num*num );
+        printf("Want to enter another number y/n");
+        scanf ("%c", &another);
+    }
+    return 0 ;
+}
